@@ -18,7 +18,7 @@
 .flex-row{
     display: flex;
     flex-direction: row;
-    gap:3px;
+    gap:2px;
 }
 
 .desktop-txt{
@@ -165,7 +165,7 @@ header{
 .card-image{
     width:270px; 
     height:170px;
-    margin-right:-70px;
+    margin-right:-65px;
 }
 
 .type1 {
@@ -194,8 +194,8 @@ header{
 }
 
 .emphasize{
-    font-weight: 700;
-    margin-left: -3px;
+    font-weight: 800;
+    margin-left: -4px;
     color:#333;
 }
 
@@ -206,11 +206,12 @@ header{
 }
 
 .txt-gray{
-    color: #525252;
+    color: #373737;
     font-size: 13px;
     font-weight: 300;
     line-height: 150%; /* 24px */
     flex-direction: column;
+    margin-left: 7px;
 }
 
 #form-introduce-description{
