@@ -156,7 +156,7 @@ header{
 
 .txt-content{
     display: flex;
-    width: 400px;
+    width: 300px;
     flex-direction: column;
     gap: 10px;
 }
