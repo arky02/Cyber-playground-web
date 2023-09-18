@@ -58,7 +58,6 @@ header{
     background-size: cover;
     background-position: center;
     display: flex;
-    flex-direction: row-reverse;
     margin: 0 auto;
     color:#fefefe;
     padding:4px 8px;
