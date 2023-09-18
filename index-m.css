@@ -38,9 +38,10 @@ header{
     justify-content: left;
     padding: 20px 17px 17px;
     width: 100%;
-    background-color: #ffffff;
-    margin-top:-44px;
+    /* background-color: #ffffff; */
+    margin-top:-52px;
     z-index: 1;
+    backdrop-filter: blur(5px);
 }
 
 #header-txt{
@@ -61,7 +62,7 @@ header{
     margin: 0 auto;
     color:#fefefe;
     padding:4px 8px;
-    margin-top:44px;
+    margin-top:51px;
     justify-content: left;
 }
 
@@ -75,7 +76,7 @@ header{
 .div-hero{
     display: flex;
     color:#ffffff;
-    padding:40px 30px;
+    padding:35px 30px;
 }
 
 .div-hero .mobile-txt{
@@ -96,8 +97,7 @@ header{
     margin:13px 0 0 5px;
     border-radius: 25px;
     color:#0e0e0e;
-    font-weight:600;
-    
+    font-weight:300;
 }
 
 /* ------------------------------- */
