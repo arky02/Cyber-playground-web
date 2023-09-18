@@ -69,7 +69,7 @@ header{
     width: 100%;
     display:flex;
     flex-direction:column;
-    gap:15px;
+    gap:13px;
 }
 
 .div-hero{
@@ -93,7 +93,7 @@ header{
     text-decoration: none;
     width: fit-content;
     padding:10px 25px;
-    margin:13px 0 0 5px;
+    margin:16px 0 0 5px;
     border-radius: 25px;
     color:#0e0e0e;
     font-weight:400;
@@ -195,13 +195,13 @@ header{
 .emphasize{
     font-weight: 800;
     margin-left: -4px;
-    color:#333;
+    color:#171717;
 }
 
 #div-introducing-description{
     flex-direction: column;
     gap:15px;
-    padding:0 12px;
+    padding:0 13px;
 }
 
 .txt-gray{
@@ -216,213 +216,22 @@ header{
 #form-introduce-description{
     font-weight: 400;
     font-size: 14px;
-}
-
-/* -- form start --  */
-.section-form{
-    background-image: url(https://i.ibb.co/FY0Q9YR/pngegg-2-upscaled.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin: 0 auto;
-    width:1000px;
-    /* margin-top:50px; */
-}
-
-.div-form{
-    display: none;
-}
-
-/* -- form txt design -- */
-.form-txt,
-input,
-label {
-    font-family: Noto Sans KR, sans-serif;
-    display: block;
-    /* margin: 10px; */
-    padding: 5px;
-    border: none;
-    font-size: 20px;
-    font-weight: 300;
-}
-
-input:focus {
-    outline: 0;
-}
-
-/* Question */
-input.question{
-    font-weight: 300;
-    border-radius: 2px;
-    margin-top: 20px;
-    border: none;
-    width: 80%;
-    background: rgba(0, 0, 0, 0);
-    transition: padding-top 0.2s ease, margin-top 0.2s ease;
-    overflow-x: hidden; /* Hack to make "rows" attribute apply in Firefox. */
-}
-
-/* Underline and Placeholder */
-input.question + label {
-    display: block;
-    position: relative;
-    padding: 0;
-    margin: 0;
-    width: 10%;
-    border-top: 1px solid rgb(0, 0, 0);
-    -webkit-transition: width 0.4s ease;
-    transition: width 0.4s ease;
-    height: 0px;
-}
-
-input.question:focus + label {
-    width: 80%;
-}
-
-input.question:focus,
-input.question:valid {
-    margin-top: 20px;
-}
-
-
-input.question:focus + label > span,
-input.question:valid + label > span {
-    top: -70px;
-    font-size: 18px;
-    color: #5a3e24;
-}
-
-input.question:valid + label{
-    border-color: #9b7654;
-}
-
-input.question:invalid {
-    box-shadow: none;
-}
-
-
-input.question + label > span {
-    font-weight: 350;
-    margin: 0;
-    position: absolute;
-    color: #191010;
-    font-size: 20px;
-    top: -52px;
-    left: 0px;
-    transition: top 0.2s ease, font-size 0.2s ease, color 0.2s ease;
-}
-
-@-webkit-keyframes appear {
-100% {
-    opacity: 1;
-}
-}
-
-@keyframes appear {
-100% {
-    opacity: 1;
-}
-}
-
-
-/* -- radio button & checkbox design -- */
-.radio-lab {
-    font-size: 18px;
-    line-height: 2rem;
-    padding: 0.2em 0.4em;
-}
-
-[type="radio"] {
-    vertical-align: middle;
-    appearance: none;
-    border: max(0.5px, 0.07em) solid rgb(0, 0, 0);
-    border-radius: 50%;
-    width: 1.25em;
-    height: 1.25em;
-    transition: border 0.5s ease-in-out;
-}
-
-[type="radio"]:checked{
-    border: 0.4em solid #5a3e24;
-}
-
-[type="radio"]:focus-visible{
-    outline-offset: max(2px, 0.1em);
-    outline: max(2px, 0.1em) dotted#5a3e24;
-}
-
-[type="radio"]:hover{
-    box-shadow: 0 0 0 max(4px, 0.2em) lightgray;
-    cursor: pointer;
-}
-
-[type="radio"]:hover + span {
-    cursor: pointer;
-}
-
-[type="radio"]:disabled {
-    background-color: rgb(230, 230, 230);
-    box-shadow: none;
-    opacity: 0.7;
-    cursor: not-allowed;
-}
-
-[type="radio"]:disabled + span {
-    opacity: 0.7;
-    cursor: not-allowed;
-}
-
-input[type="checkbox"] {
-    appearance: none;
-    background-color: rgba(0, 0, 0, 0);
-    margin: 0;
-    font: inherit;
-    color: currentColor;
-    width: 1.15em;
-    height: 1.15em;
-    border: max(0.5px, 0.07em) solid currentColor;
-    border-radius: 0.1em;
-    transform: translateY(-0.075em);
-    display: grid;
-    place-content: center;
-}
-
-input[type="checkbox"]::before {
-    content: "";
-    width: 0.65em;
-    height: 0.65em;
-    transform: scale(0);
-    transition: 100ms transform ease-in-out;
-    box-shadow: inset 1em 1em #5a3e24;
-}
-
-input[type="checkbox"]:checked::before {
-    transform: scale(1);
-}
-
-.txt-radio-design{
-    font-size: 14px;
-    font-weight: 300px;
-}
-
-/* Global CSS */
-fieldset {
-    display: flex;
-    gap:-9px;
-    border: none;
-    margin-top: 8px;
+    text-align: center;
 }
 
 .btn-submit{
     background-color: #383131;
     color: #fefefe;
-    margin: 90 auto;
-    width: 600px;
-    height: 50px;
+    margin: 17 auto 120;
+    width: 250px;
+    height: 47px;
+    text-align: center;
     border-radius: 54px;
-    font-size: 20px;
-    padding: 10px;
+    font-size: 17px;
+    padding:10px 0 12px;
+    text-decoration: none;
     font-weight: 300;
-}
+  }
 
 
 /* 로고 배경 이미지 : https://ifh.cc/g/ZWmrKo.png */

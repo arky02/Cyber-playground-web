@@ -36,9 +36,11 @@ header{
   justify-content: left;
   padding: 23px 20px 20px;
   width: 100%;
-  background-color: #fefefe;
+  /* background-color: #fefefe; */
   margin-top:-66px;
   z-index: 1;
+  background-color: rgba(255,255,255, 0.7);
+  backdrop-filter: blur(5px);
 }
 
 #header-txt{
@@ -93,7 +95,7 @@ header{
  border-radius: 25px;
  margin-top:20px;
  color:#0e0e0e;
- font-weight:600;
+ font-weight:500;
 }
 
 /* -- introducing card sections -- */
@@ -203,20 +205,23 @@ header{
   line-height: 150%; /* 24px */
  }
 
+
 #form-introduce-description{
   font-size: 20px; 
+  text-align: center;
   font-weight: 300;
 }
 
+/* 
 
-/* -- form start --  */
+/* -- form start -- *
 .section-form{
  background-image: url(https://i.ibb.co/FY0Q9YR/pngegg-2-upscaled.png);
  background-repeat: no-repeat;
  background-size: contain;
  margin: 0 auto;
  width:1000px;
- /* margin-top:50px; */
+ margin-top:50px; 
 }
 
 .div-form{
@@ -227,13 +232,12 @@ header{
  width: fit-content;
 }
 
-/* -- form txt design -- */
+/* -- form txt design -- *
 .form-txt,
 input,
 label {
   font-family: Noto Sans KR, sans-serif;
   display: block;
-  /* margin: 10px; */
   padding: 5px;
   border: none;
   font-size: 20px;
@@ -244,7 +248,7 @@ input:focus {
   outline: 0;
 }
 
-/* Question */
+/* Question *
 input.question{
   font-weight: 300;
   border-radius: 2px;
@@ -253,10 +257,10 @@ input.question{
   width: 80%;
   background: rgba(0, 0, 0, 0);
   transition: padding-top 0.2s ease, margin-top 0.2s ease;
-  overflow-x: hidden; /* Hack to make "rows" attribute apply in Firefox. */
+  overflow-x: hidden; /* Hack to make "rows" attribute apply in Firefox.*
 }
 
-/* Underline and Placeholder */
+/* Underline and Placeholder *
 input.question + label {
   display: block;
   position: relative;
@@ -319,7 +323,7 @@ input.question + label > span {
 }
 
 
-/* -- radio button & checkbox design -- */
+/* -- radio button & checkbox design -- *
 .radio-lab {
   font-size: 18px;
   line-height: 2rem;
@@ -399,23 +403,26 @@ input[type="checkbox"]:checked::before {
   font-weight: 300px;
 }
 
-/* Global CSS */
+/* Global CSS *
 fieldset {
   display: flex;
   gap:-9px;
   border: none;
   margin-top: 8px;
-}
+} 
+*/
 
 .btn-submit{
   background-color: #383131;
   color: #fefefe;
-  margin: 90 auto;
-  width: 600px;
+  margin: 27 auto 150;
+  width: 300px;
   height: 50px;
+  text-align: center;
   border-radius: 54px;
   font-size: 20px;
-  padding: 10px;
+  padding:10px 0 12px;
+  text-decoration: none;
   font-weight: 300;
 }
 
