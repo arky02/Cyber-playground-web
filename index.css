@@ -135,6 +135,10 @@ header{
  letter-spacing: -0.3px;
 }
 
+#section1 .txt-design-title1{
+  width: 320px;
+}
+
 .type1 {
  background: linear-gradient(96deg, #FE8A8A 1.72%, #A4CEFF 74.97%);
 }
