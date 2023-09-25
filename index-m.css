@@ -29,7 +29,11 @@
 body{
     background-color: rgb(255, 255, 255);
     position: relative;
+    -ms-overflow-style: none;
 }
+::-webkit-scrollbar {
+    display: none;
+  }
 
 /* -- floatting header design -- */
 header{
