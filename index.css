@@ -1,32 +1,33 @@
-*{
-  font-family: Josefin Sans,  Spoqa Han Sans Neo, Noto Sans KR, Poppins,sans-serif;
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
+* {
+  font-family: Josefin Sans, Spoqa Han Sans Neo, Noto Sans KR, Poppins,
+    sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /* -- css variable setting -- */
-.kor{
-  font-family: Noto Sans KR,sans-serif;
+.kor {
+  font-family: Noto Sans KR, sans-serif;
 }
 
-.flex-column{
+.flex-column {
   display: flex;
   flex-direction: column;
-  gap:10px;
+  gap: 10px;
 }
 
-.flex-row{
+.flex-row {
   display: flex;
   flex-direction: row;
-  gap:28px;
+  gap: 28px;
 }
 
- .mobile-txt{
-  display:none;
- }
+.mobile-txt {
+  display: none;
+}
 
 /* -- start of body */
-body{
+body {
   background-color: rgb(255, 255, 255);
   position: relative;
   -ms-overflow-style: none;
@@ -35,188 +36,188 @@ body{
   display: none;
 }
 
-header{
+header {
   position: fixed;
   display: flex;
   justify-content: left;
   padding: 23px 20px 20px;
   width: 100%;
   /* background-color: #fefefe; */
-  margin-top:-66px;
+  margin-top: -66px;
   z-index: 1;
-  background-color: rgba(255,255,255, 0.7);
+  background-color: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(5px);
 }
 
-#header-txt{
+#header-txt {
   margin-left: 20px;
   font-size: 22px;
 }
 
 /* -- hero section -- */
-.section-hero{
- background-image: url(https://i.ibb.co/RzXSZtw/Screen-Shot-2023-09-16-at-8-12-59-PM.png);
- background-color: rgba(0,0,0,0.5);
- background-repeat: no-repeat;
- background-size: cover;
- /* background-position: center; */
- display: flex;
- margin: 0 auto;
- color:#fefefe;
- padding:70px 80px;
- margin-top:66px;
- justify-content: space-between;
+.section-hero {
+  background-image: url(https://i.ibb.co/RzXSZtw/Screen-Shot-2023-09-16-at-8-12-59-PM.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  display: flex;
+  margin: 0 auto;
+  color: #fefefe;
+  padding: 70px 80px;
+  margin-top: 66px;
+  justify-content: space-between;
 }
 
-.txt-hero-wrap{
-  display:flex;
-  flex-direction:column;
-  gap:20px;
-  white-space:nowrap;
-  font-size:20px;
+.txt-hero-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  white-space: nowrap;
+  font-size: 20px;
 }
 
-.div-hero{
- display: flex;
- white-space: nowrap;
- font-size: 20px;
+.div-hero {
+  display: flex;
+  white-space: nowrap;
+  font-size: 20px;
 }
 
-#main-logo-txt{
+#main-logo-txt {
   font-size: 50px;
   font-weight: 300;
 }
 
-.img-logo{
- width:30%;
- height: auto;
+.img-logo {
+  width: 30%;
+  height: auto;
 }
 
-.div-hero-btn{
- background-color: #ffffff;
- text-decoration: none;
- width: fit-content;
- padding:10px 23px;
- border-radius: 25px;
- margin-top:20px;
- color:#0e0e0e;
- font-weight:500;
+.div-hero-btn {
+  background-color: #ffffff;
+  text-decoration: none;
+  width: fit-content;
+  padding: 10px 23px;
+  border-radius: 25px;
+  margin-top: 20px;
+  color: #0e0e0e;
+  font-weight: 500;
 }
 
 /* -- introducing card sections -- */
-.section-cards{
-  width:100%;
+.section-cards {
+  width: 100%;
   display: flex;
   padding: 50px 461px 50px 461px;
   justify-content: center;
   align-items: center;
-  gap:157px;
+  gap: 157px;
   background-color: #ffffff;
   position: relative;
   overflow: hidden;
 }
 
-.reduce-padding{
-    margin-top:-50px;
+.reduce-padding {
+  margin-top: -50px;
 }
-.card-image{
- width:550px; 
- height:370px;
-}
-
-.section-cards#section2, #section4{
- flex-direction: row-reverse;
+.card-image {
+  width: 550px;
+  height: 370px;
 }
 
-.section-cards .content{
- display: flex;
- align-items: center;
- gap: 157px;
+.section-cards#section2,
+#section4 {
+  flex-direction: row-reverse;
 }
 
-.txt-design-title1{
- font-size: 47px;
- font-weight: 700;
- letter-spacing: -0.3px;
+.section-cards .content {
+  display: flex;
+  align-items: center;
+  gap: 157px;
 }
 
-#section1 .txt-design-title1{
+.txt-design-title1 {
+  font-size: 47px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+}
+
+#section1 .txt-design-title1 {
   width: 320px;
 }
 
 .type1 {
- background: linear-gradient(96deg, #FE8A8A 1.72%, #A4CEFF 74.97%);
+  background: linear-gradient(96deg, #fe8a8a 1.72%, #a4ceff 74.97%);
 }
 
 .type2 {
- background: linear-gradient(277deg, #6FBAFF 59.22%, #FFD88B 93.66%);
+  background: linear-gradient(277deg, #6fbaff 59.22%, #ffd88b 93.66%);
 }
 
 .type3 {
- background: linear-gradient(271deg, #FE578F -9.84%, #68E8F9 107.18%);
+  background: linear-gradient(271deg, #fe578f -9.84%, #68e8f9 107.18%);
 }
 
 .gradient {
- background-clip: text;
- -webkit-background-clip: text;
- -webkit-text-fill-color: transparent;
- padding-top:15px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 15px;
 }
 
-.section-cards .content p{
-  color: #6B6B6B;
+.section-cards .content p {
+  color: #6b6b6b;
   font-size: 16px;
   font-weight: 500;
   line-height: 150%; /* 24px */
- }
- 
-.section-cards .txt-content{
- display: flex;
- width: 291px;
- flex-direction: column;
- align-items: flex-start;
- gap: 10px;
+}
+
+.section-cards .txt-content {
+  display: flex;
+  width: 291px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
 }
 
 /* ------------------ */
 /* -- form section -- */
-.txt-description{
-  font-family:Spoqa Han Sans Neo, sans-serif;
-  color:black;
+.txt-description {
+  font-family: Spoqa Han Sans Neo, sans-serif;
+  color: black;
   font-weight: 300;
   font-size: 20px;
 }
 
-.txt-introducing{
+.txt-introducing {
   font-size: 30px;
-  white-space:nowrap;
+  white-space: nowrap;
   font-weight: 600;
   margin-top: 70px;
   display: flex;
   flex-direction: column;
-  gap:75px;
+  gap: 75px;
   margin-bottom: -10px;
- }
-
-#div-introducing-description{
-  gap:90px;
 }
 
-.emphasize{
+#div-introducing-description {
+  gap: 90px;
+}
+
+.emphasize {
   font-weight: 700;
-  color:#333;
+  color: #333;
 }
 
-.txt-gray{
-  color: #6B6B6B;
+.txt-gray {
+  color: #6b6b6b;
   font-size: 16px;
   font-weight: 400;
   line-height: 150%; /* 24px */
- }
+}
 
-
-#form-introduce-description{
-  font-size: 20px; 
+#form-introduce-description {
+  font-size: 20px;
   text-align: center;
   font-weight: 300;
 }
@@ -421,7 +422,7 @@ fieldset {
 } 
 */
 
-.btn-submit{
+.btn-submit {
   background-color: #383131;
   color: #fefefe;
   margin: 27 auto 150;
@@ -430,11 +431,10 @@ fieldset {
   text-align: center;
   border-radius: 54px;
   font-size: 20px;
-  padding:10px 0 12px;
+  padding: 10px 0 12px;
   text-decoration: none;
   font-weight: 300;
 }
-
 
 /* 로고 배경 이미지 : https://ifh.cc/g/ZWmrKo.png */
 /* 로고 배경 이미지 큰거 해상도 낮은 버전 https://ifh.cc/g/6FJMfc.jpg */
